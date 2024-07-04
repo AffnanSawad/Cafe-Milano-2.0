@@ -7,13 +7,13 @@ const Navbar = () => {
 
       
              <div className="navbar bg-base-100">
-  <div className="flex-1">
-    <a className="btn btn-ghost text-4xl font-extrabold text-amber-800">Cafe-Milano</a>
+  <div className="flex-1 ">
+    <a className="btn btn-ghost text-3xl font-extrabold text-amber-800 pr-4 ">Cafe-Milano</a>
 
   </div>
-  <div className="flex-none  ml-4 gap-2">
-    <div className="form-control">
-      <input type="text" placeholder="Search" className="input input-bordered w-24  md:w-auto" />
+  <div className="flex-none  ml-6 gap-2 mr-4">
+    <div className="form-control ml-8">
+      <input type="text" placeholder="Search" className="input input-bordered w-20 ml-10  md:w-auto" />
     </div>
     <div className="dropdown dropdown-end ">
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
