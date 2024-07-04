@@ -1,8 +1,6 @@
 # React + Vite
+LIVE LINK : https://cafe-milano.netlify.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CAFE-MILANO-2.0 
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Cafe Milano 2.0 is a simple React.js website for a coffee shop, featuring a navigation bar, a banner, and six coffee item cards. Each card displays the coffee's price, calories, preparation time, and includes an "Add to Cart" button. When the button is clicked, the specific item is added to the cart section, showing the name, calories, and preparation time of the selected coffee.
