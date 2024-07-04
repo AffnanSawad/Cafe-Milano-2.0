@@ -1,5 +1,5 @@
 # React + Vite
-LIVE LINK : https://cafe-milano-2.netlify.app
+LIVE LINK : https://cafe-milano.netlify.app/
 
 CAFE-MILANO-2.0 
 
