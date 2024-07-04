@@ -3,7 +3,7 @@ import { useState } from "react";
 import Coffe_card from "../Coffee_card/Coffe_card";
 
 
-const Coffee_Cards = () => {
+const Coffee_Cards = ({handleAddCart,handlePrice}) => {
 
     
     const [coffecards,setcoffeecards] = useState([]);
@@ -40,6 +40,11 @@ const Coffee_Cards = () => {
         coffecard={coffecard}
        
         key={coffecard.id}
+
+
+        handleAddCart={handleAddCart}
+
+        handlePrice={handlePrice}
         
         ></Coffe_card>)
     }

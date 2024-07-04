@@ -19,7 +19,7 @@
     },
     {
       "id": "3",
-      "title": "Latte",
+      "title": "Latte Italia",
       "price": "4.49",
       "cook_time": 8,
       "calories": 190,
@@ -37,7 +37,7 @@
     },
     {
       "id": "5",
-      "title": "Mocha",
+      "title": "Mochaticano",
       "price": "4.99",
       "cook_time": 9,
       "calories": 250,

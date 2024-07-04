@@ -2,9 +2,13 @@ import { FaFireAlt } from "react-icons/fa";
 import { IoIosTime } from "react-icons/io";
 
 
-const Coffe_card = ({coffecard}) => {
+const Coffe_card = ({coffecard,handleAddCart,handlePrice}) => {
 
     const {id,image,title,price,description,cook_time,calories}=coffecard;
+
+
+    
+
     return (
         <div>
            
@@ -23,7 +27,11 @@ const Coffe_card = ({coffecard}) => {
     </h2>
     <p className="font-semibold font-bold">{description} </p>
 
-    <p className="text-2xl font-extrabold"> ${price} </p>
+    <p 
+    
+    
+    
+    className="text-2xl font-extrabold"> ${price} </p>
 
     <hr />
 
@@ -39,7 +47,13 @@ const Coffe_card = ({coffecard}) => {
     
 
 
-    <button className="btn btn-error mt-5  text-white">Add To Cart</button>
+    <button 
+    
+    onClick={()=>handleAddCart(coffecard)}
+
+    
+    
+    className="btn btn-error mt-5  text-white">Add To Cart</button>
   </div>
 </div>
 
