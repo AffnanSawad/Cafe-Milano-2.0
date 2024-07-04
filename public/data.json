@@ -1,0 +1,57 @@
+[
+    {
+      "id": "1",
+      "title": "Espresso",
+      "price": "2.99",
+      "cook_time": 5,
+      "calories": 5,
+      "description": "A strong and rich coffee shot.",
+      "image": "https://i.ibb.co/c3ZHNbr/couple-enjoying-coffee-weekend.jpg" 
+    },
+    {
+      "id": "2",
+      "title": "Cappuccino",
+      "price": "3.99",
+      "cook_time": 7,
+      "calories": 150,
+      "description": "A perfect blend of espresso, steamed milk, and foam.",
+      "image": "https://i.ibb.co/LNqfxnJ/cappuccino-with-cinnamon-drawing-top-1.png"
+    },
+    {
+      "id": "3",
+      "title": "Latte",
+      "price": "4.49",
+      "cook_time": 8,
+      "calories": 190,
+      "description": "Smooth and creamy, made with espresso and steamed milk.",
+      "image": "https://i.ibb.co/MpPVXL7/hot-latte-coffee-cup.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Americano",
+      "price": "2.49",
+      "cook_time": 6,
+      "calories": 10,
+      "description": "Espresso diluted with hot water for a lighter flavor.",
+      "image": "https://i.ibb.co/d0cc0jm/hot-coffee-mug-with-cream-rustic-wooden-table-1.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Mocha",
+      "price": "4.99",
+      "cook_time": 9,
+      "calories": 250,
+      "description": "A chocolate-flavored coffee with steamed milk.",
+      "image": "https://i.ibb.co/NC41ZG6/delicious-quality-coffee-cup-1.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Macchiato",
+      "price": "3.79",
+      "cook_time": 7,
+      "calories": 120,
+      "description": "Espresso with a small amount of frothy steamed milk.",
+      "image": "https://i.ibb.co/qMkVmzr/iced-machiato-coffee.jpg"
+    }
+  ]
+  
