@@ -32,24 +32,19 @@ const Coffee_Cards = ({handleAddCart,handlePrice}) => {
 
       {/* <h1>h1 :{coffecards.length} </h1> */}
 
-      <div className="grid grid-cols-1 ml-2 mt-4 mb-10  md:grid-cols-2 gap-5 lg:grid-cols-2 gap-4">
-
-    {
-        coffecards.map(coffecard=><Coffe_card
-        
-        coffecard={coffecard}
-       
+      <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-6 px-4 md:px-6 lg:px-10 mt-6 mb-10">
+  {
+    coffecards.map(coffecard => (
+      <Coffe_card
         key={coffecard.id}
-
-
+        coffecard={coffecard}
         handleAddCart={handleAddCart}
-
         handlePrice={handlePrice}
-        
-        ></Coffe_card>)
-    }
+      />
+    ))
+  }
+</div>
 
-      </div>
 
         </div>
     );

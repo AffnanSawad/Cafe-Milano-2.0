@@ -6,6 +6,7 @@ import Coffee_Cards from './Components/Coffe_Cards/Coffee_Cards'
 import Footer from './Components/Footer/Footer'
 import My_cart from './Components/My_cart/My_cart'
 import Navbar from './Components/Navbar/Navbar'
+import Swal from 'sweetalert2'
 
 
 
@@ -33,6 +34,19 @@ function App() {
    const newPrice = addprice + price ;
 
    setaddcart(newCart,newPrice);
+
+
+   
+Swal.fire({
+  position: "top-end",
+  icon: "success",
+  title: "Added To The Cart",
+  showConfirmButton: false,
+  timer: 1500
+});
+
+
+
 
   }
 

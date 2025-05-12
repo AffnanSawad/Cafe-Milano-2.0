@@ -47,15 +47,32 @@ const Coffe_card = ({coffecard,handleAddCart,handlePrice}) => {
     
 
 
-    <button 
+  <div className="flex gap-5">
+   
+     <button 
     
     onClick={()=>handleAddCart(coffecard)}
 
     
     
     className="btn btn-error mt-5  text-white">Add To Cart</button>
+    
+
+
+    <button  className="btn btn-warning mt-5"> Remove The Cart </button>
+
+
+
   </div>
 </div>
+
+
+
+
+
+
+
+  </div>
 
         </div>
     );
